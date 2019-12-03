@@ -1,0 +1,176 @@
+
+body{
+	margin:0;
+}
+
+
+.black-text{
+	font-family:Arial Black;
+	font-size:20pt;
+}
+
+#p1{
+	margin-left:350px;
+	margin-top:460px;
+}
+#p2{
+	margin-left:450px;
+	margin-top:-32px;
+}
+#p3{
+	margin-left:600px;
+	margin-top:-42px;
+}
+
+.white-text{
+	font-family:Euphemia UCAS;
+	font-size:11pt;
+	color:grey;
+}
+#p4{
+	margin-left:600px;
+	margin-top:90px;
+
+}
+
+#p5{
+	margin-left:630px;
+	margin-top:-15px;
+}
+
+#p6{
+	margin-left:570px;
+	margin-top:-15px;
+}
+
+#p7{
+	margin-left:500px;
+}
+
+#p8{
+	margin-left:470px;
+	margin-top:-13px;
+}
+
+#p9{
+	margin-left:430px;
+	margin-top:-13px;
+}
+
+#p10{
+	margin-left:330px;
+	margin-top:-10px;
+}
+
+#p11{
+	margin-left:220px;
+
+}
+
+#p12{
+	margin-left:260px;
+	margin-top:-13px;
+}
+
+#p13{
+	margin-left:300px;
+	margin-top:-13px;
+}
+
+.text{font-family:Euphemia UCAS;
+	font-size:11pt;
+}
+
+#p14{
+	margin-left:600px;
+	margin-top:130px;
+}
+#p15{
+	margin-left:620px;
+	margin-top:-13px;
+}
+
+#p16{
+	margin-left:630px;
+	margin-top:-13px;
+}
+
+    #circle03 {
+      position: absolute;
+
+  	  z-index:7;
+  	  width: 20px;
+      height: 20px;
+      background-color: black;
+      margin-top: 420px;
+      margin-left: 520px;
+      border-radius: 50%;
+    }
+
+
+#circle01 {
+	  position: absolute;
+      z-index:3;
+      width: 950px;
+      height: 950px;
+      background-color: black;
+      margin-top: 20px;
+      margin-bottom: 700px;
+      margin-right: 500px;
+      margin-left: 50px;
+      border-radius: 50%;
+      
+  }
+
+  @keyframes yy{
+  	0%{
+  		transform:translate(0,0);
+  	}
+  	100%{
+  		transform:translate(-100px,0);
+  	}
+  }
+  #circle02 {
+
+      position: absolute;
+	  z-index:4;
+      width: 400px;
+      height: 400px;
+      background-color: #C64F30;
+     /* margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 150px;
+      margin-left: 450px;*/
+      margin-left:325px;
+      margin-top:230px;
+      border-radius: 50%;
+      animation:yy 0.5s infinite alternate;
+     
+    }
+
+    #square {
+      position:absolute;
+      z-index:1;
+      width: 1000px;
+      height:1200px;
+      background: grey;
+      margin-left:30px;
+    
+    }
+  
+#graphic_parent{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:-2;
+}
+
+
+
+
+
+ 
+
+
+ 
+

@@ -1,0 +1,220 @@
+*{
+	margin:0;
+}
+
+
+
+p{
+	color:#34F7B6;
+	font-family:Birch Std,garamond,serif;
+	font-size:400px;
+	font-style:italic; 
+	margin-top: 100px;
+	margin-left:100px;
+
+}
+
+h1{ 
+    color:#FF1749;
+	font-family:Blackoak Std;
+	font-size:25px;
+	font-style:italic;
+	margin-top: 15px;
+	margin-left: 160px
+
+ }
+
+ h2{
+    color:yellow;
+    font-family:Birch Std,garamond,serif;
+    font-size:50px;
+    font-style:italic;
+    margin-left:300px;
+    margin-top:-50px;
+ }
+
+ body {
+      animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: pink;}
+      25%  {background: #FFF9B1;}
+      50%  {background: powderblue;}
+      75%  {background: green;}
+      100% {background: pink;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      50%  {background: powderblue;}
+      75%  {background: green;}
+      100% {background: pink;}
+
+
+    }
+
+    #clock{
+    	margin-left:280px;
+    	margin-top:-20px;
+    	width:600px;
+    	height:600px;
+    }
+    #sunset{
+    	width:200px;
+    	height:200px;
+      margin-bottom:500px;
+      margin-right:120px;
+    }
+
+    #sunset {
+  background: #fff;
+  position:relative;
+  top:-100px;
+  opacity: 0
+}
+   #sunset:hover{
+    opacity:1;
+   }
+   
+   #water{
+    width:200px;
+      height:200px;
+      margin-bottom:1000px;
+      margin-left:120px;
+   }
+
+   #water {
+  background: #fff;
+  position:relative;
+  top:-100px;
+  opacity: 0
+}
+   #water:hover{
+    opacity:1;
+   }
+
+   #tree{
+    width:200px;
+      height:200px;
+      margin-bottom:1000px;
+      margin-right:120px;
+   }
+#tree {
+  background: #fff;
+  position:relative;
+  top:-100px;
+  opacity: 0
+}
+   #tree:hover{
+    opacity:1;
+   }
+
+
+#bad{
+    position:absolute;
+    width:200px;
+    height:200px;
+    margin-top:50px;
+}
+
+#bad {
+  background: #fff;
+  position:relative;
+  top:-100px;
+  opacity: 0
+}
+   #bad:hover{
+    opacity:1;
+  }
+
+#deca{
+  position:absolute;
+    width:200px;
+    height:200px;
+    margin-left:100px;
+    margin-top:-1000px;
+
+}
+
+#deca{
+  background: #fff;
+  position:relative;
+  top:-100px;
+  opacity: 0
+
+}
+
+#deca:hover{
+    opacity:1;
+
+}
+
+
+#joins{
+  position:absolute;
+    width:200px;
+    height:200px;
+    margin-left:100px;
+    margin-top:-1000px
+
+}
+
+#joins{
+  background: #fff;
+  position:relative;
+  top:-100px;
+  opacity: 0
+
+}
+
+#joins:hover{
+    opacity:1;
+    }
+
+    #ginger{
+      position:absolute;
+    width:200px;
+    height:200px;
+    }
+
+    #ginger{
+  background: #fff;
+  position:relative;
+  top:-100px;
+  opacity: 0
+
+}
+
+#ginger:hover{
+    opacity:1;
+    }
+
+    #ping{
+      position:absolute;
+    width:200px;
+    height:200px;
+    margin-bottom:100px;
+
+    }
+
+    #ping{
+      background: #fff;
+  position:relative;
+  top:-100px;
+  opacity: 0
+    }
+
+    #ping:hover{
+    opacity:1;
+    }
+
+
+
+    
+  
+
+

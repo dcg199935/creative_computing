@@ -1,0 +1,63 @@
+*{
+	margin:0;
+}
+
+
+
+p{
+	color:#34F7B6;
+	font-family:Birch Std,garamond,serif;
+	font-size:400px;
+	font-style:italic; 
+	margin-top: 100px;
+	margin-left:100px;
+
+}
+
+
+h1{ 
+    color:#FF1749;
+	font-family:Blackoak Std;
+	font-size:25px;
+	font-style:italic;
+	margin-top: 15px;
+	margin-left: 160px
+
+ }
+
+ body {
+      animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: pink;}
+      25%  {background: #FFF9B1;}
+      50%  {background: powderblue;}
+      75%  {background: green;}
+      100% {background: pink;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: pink;}
+      25%  {background: #FFF9B1;}
+      50%  {background: powderblue;}
+      75%  {background: green;}
+      100% {background: pink;}
+
+
+    }
+
+    #clock{
+    	margin-left:280px;
+    	margin-top:-20px;
+    	width:600px;
+    	height:600px;
+    }
+
+
+
+

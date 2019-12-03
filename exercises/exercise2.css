@@ -1,0 +1,22 @@
+.green_text{color:green;}
+
+.blue_text{color:blue;}
+#red_text{color:red;}
+
+.fixed_size{font-size:18px;}
+.resonsive_size{font-size:10vw;}
+.fixed_box{width:200px;height:200px;}
+.resonsive_box{width:20vw;height:20vh;
+	background-color:red;}
+
+	#box_1{
+		margin-left:300px;
+	}
+
+	#box_3{
+  background-color: red;
+  transition: background-color .5s;
+}
+    #box_3:hover{
+    	background-color: gold;
+    }
