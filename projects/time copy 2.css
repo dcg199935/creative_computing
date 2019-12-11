@@ -56,23 +56,34 @@ h1{
 
 
     }
-
+    .album{
+    	position: absolute;
+    }
     #clock{
     	margin-left:280px;
     	margin-top:-20px;
+    	position:relative;
+    }
+    #clock1{
+    	
     	width:600px;
-    	height:600px;
+    	
+    }
+    #clock2{
+    	position: absolute;
+    	width:600px;
+    	top:0;
+    	left:0;
     }
     #sunset{
     	width:200px;
     	height:200px;
-      margin-bottom:500px;
-      margin-right:120px;
+      margin-top:1000px;
+      margin-left:900px;
     }
 
     #sunset {
   background: #fff;
-  position:relative;
   top:-100px;
   opacity: 0
 }
@@ -83,13 +94,12 @@ h1{
    #water{
     width:200px;
       height:200px;
-      margin-bottom:1000px;
-      margin-left:120px;
+      margin-top:1300px;
+      margin-left:800px;
    }
 
    #water {
   background: #fff;
-  position:relative;
   top:-100px;
   opacity: 0
 }
@@ -100,12 +110,11 @@ h1{
    #tree{
     width:200px;
       height:200px;
-      margin-bottom:1000px;
-      margin-right:120px;
+      margin-top:1500px;
+      margin-left:100px;
    }
 #tree {
   background: #fff;
-  position:relative;
   top:-100px;
   opacity: 0
 }
@@ -115,15 +124,14 @@ h1{
 
 
 #bad{
-    position:absolute;
     width:200px;
     height:200px;
-    margin-top:50px;
+    margin-top:1100px;
+    margin-left:1100px;
 }
 
 #bad {
   background: #fff;
-  position:relative;
   top:-100px;
   opacity: 0
 }
@@ -135,14 +143,13 @@ h1{
   position:absolute;
     width:200px;
     height:200px;
-    margin-left:100px;
-    margin-top:-1000px;
+    margin-left:300px;
+    margin-top:1600px;
 
 }
 
 #deca{
   background: #fff;
-  position:relative;
   top:-100px;
   opacity: 0
 
@@ -159,13 +166,12 @@ h1{
     width:200px;
     height:200px;
     margin-left:100px;
-    margin-top:-1000px
+    margin-top:600px
 
 }
 
 #joins{
   background: #fff;
-  position:relative;
   top:-100px;
   opacity: 0
 
@@ -179,11 +185,12 @@ h1{
       position:absolute;
     width:200px;
     height:200px;
+    margin-left:100px;
+    margin-top:1200px;
     }
 
     #ginger{
   background: #fff;
-  position:relative;
   top:-100px;
   opacity: 0
 
@@ -197,13 +204,13 @@ h1{
       position:absolute;
     width:200px;
     height:200px;
-    margin-bottom:100px;
+    margin-top:1400px;
+    margin-left:500px;
 
     }
 
     #ping{
       background: #fff;
-  position:relative;
   top:-100px;
   opacity: 0
     }
